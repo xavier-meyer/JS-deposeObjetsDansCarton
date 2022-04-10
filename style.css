@@ -1,0 +1,107 @@
+body{
+    background: teal;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.base{
+    background-image: url("https://source.unsplash.com/random/150*150");
+    height: 150px;
+    width: 150px;
+    top:5px;
+    left:5px;
+    cursor: pointer;
+    position: relative;
+}
+
+.tenu{
+    border:solid 5px #ccc;
+}
+
+.case{
+    display: inline-block;
+    height: 160px;
+    width: 160px;
+    margin:10px;
+    border: solid 3px black;
+    background: #fff;
+}
+
+.hovered{
+    background: #f4f4f4;
+    border-style: dashed;
+}
+.img-size{
+    height: 60px;
+    width: 60px;
+    object-fit: contain;
+}
+.pos-abs{
+    position: absolute;
+}
+
+#compteur{
+    top:5%;
+    right:11%;
+    border: 3px solid black;
+    border-radius: 3px;
+    height: 35px;
+    width: 40px;
+    color: #f4f4f4;
+}
+
+#comptage{
+    top:5%;
+    right: 8%;
+    border: 3px solid black;
+    border-radius: 3px;
+    height: 35px;
+    width: 40px;
+    color: #f4f4f4;
+}
+
+#img-biere{
+    position: absolute;
+    top: 15%;
+    left: 12%;
+}
+
+#img-boule{
+    position: absolute;
+    bottom: 10%;
+   left: 2%;
+}
+
+#img-bs3{
+    position: absolute;
+    top: 5%;
+    right: 25%;
+}
+
+#img-bs2{
+    position: absolute;
+    top: 5%;
+    left:25%;
+}
+
+#img-bs{
+    position: absolute;
+    bottom:3%;
+    right: 2%;
+}
+
+#win{
+    height: 25px;
+    width: 180px;
+    border: 4px dashed white;
+    border-radius: 5px;
+    background: rgb(255, 174, 0);
+    display: none;
+    bottom:20%;
+    right: 43.2%;
+    padding: 15px;
+    margin-top: 10px;
+}
